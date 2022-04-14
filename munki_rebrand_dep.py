@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Library/ManagedFrameworks/Python/Python3.framework/Versions/Current/bin/python3
 # encoding: utf-8
 """
 munki_rebrand.py
