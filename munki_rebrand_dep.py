@@ -615,7 +615,7 @@ def main():
                 print(f"Signing {py_fwkpath}...")
             sign_binary(args.sign_binaries, py_fwkpath, deep=True, force=True)
 
-        final_pkg = os.path.join(os.getcwd(), f"{outfilename}-{munki_version}.pkg")
+        final_pkg = os.path.join(os.getcwd(), f"{outfilename}-DEP-{munki_version}.pkg")
         print(f"Building output pkg at {final_pkg}...")
         flatten_pkg(root_dir, final_pkg)
         if args.sign_package:
